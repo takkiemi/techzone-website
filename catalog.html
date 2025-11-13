@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>🖥️ TechZone</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">🏠 Головна</a></li>
+                <li><a href="catalog.html">📦 Каталог</a></li>
+                <li><a href="product.html">🛍️ Товар</a></li>
+                <li><a href="comparison.html">⚖️ Порівняння</a></li>
+                <li><a href="contacts.html">📞 Контакти</a></li>
+                <li><a href="about.html">ℹ️ Про нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>🎯 Каталог товарів</h2>
+        
+        <div class="category">
+            <h3>🖱️ Мишки</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <h4>Logitech G Pro X Superlight</h4>
+                    <p>💰 4,299 ₴ | ⚖️ 63г | 🎯 25,600 DPI</p>
+                    <button onclick="addToCart('Logitech G Pro X Superlight', 4299)">🛒 Купити</button>
+                </div>
+                <div class="product-card">
+                    <h4>Razer Atlantis Mini</h4>
+                    <p>💰 3,899 ₴ | ⚖️ 49г | 🎯 30,000 DPI</p>
+                    <button onclick="addToCart('Razer Atlantis Mini', 3899)">🛒 Купити</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3>⌨️ Клавіатури</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <h4>A4Tech Bloody B650</h4>
+                    <p>💰 1,499 ₴ | ⌨️ Механічна | 🌈 RGB</p>
+                    <button onclick="addToCart('A4Tech Bloody B650', 1499)">🛒 Купити</button>
+                </div>
+                <div class="product-card">
+                    <h4>Warmilo K85</h4>
+                    <p>💰 2,199 ₴ | ⌨️ Механічна | 📏 75%</p>
+                    <button onclick="addToCart('Warmilo K85', 2199)">🛒 Купити</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechZone. Всі права захищені.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

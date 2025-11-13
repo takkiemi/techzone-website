@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Товар</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>🖥️ TechZone</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">🏠 Головна</a></li>
+                <li><a href="catalog.html">📦 Каталог</a></li>
+                <li><a href="product.html">🛍️ Товар</a></li>
+                <li><a href="comparison.html">⚖️ Порівняння</a></li>
+                <li><a href="contacts.html">📞 Контакти</a></li>
+                <li><a href="about.html">ℹ️ Про нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-detail">
+            <div class="product-image">
+                <div class="image-placeholder">🖱️ Зображення товару</div>
+            </div>
+            <div class="product-info">
+                <h2>Logitech G Pro X Superlight</h2>
+                <div class="price">4,299 ₴</div>
+                <div class="features">
+                    <p>⚖️ Вага: 63г</p>
+                    <p>🎯 DPI: 25,600</p>
+                    <p>🔋 Батарея: 70 годин</p>
+                </div>
+                <div class="actions">
+                    <button class="buy-btn" onclick="addToCart('Logitech G Pro X Superlight', 4299)">🛒 Додати в кошик</button>
+                    <button class="buy-now" onclick="buyNow('Logitech G Pro X Superlight', 4299)">⚡ Купити зараз</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechZone. Всі права захищені.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
