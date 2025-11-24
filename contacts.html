@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Контакти</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <h1>TechZone</h1>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="comparison.html">Порівняння</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main contacts-page">
+        <div class="container">
+            <h1>Контакти</h1>
+            
+            <div class="contact-content">
+                <section class="contact-info">
+                    <h2>Наші контакти</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>📧 Email:</strong>
+                            <span>info@techzone.ua</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📞 Телефон:</strong>
+                            <span>0-800-123-456</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📍 Адреса:</strong>
+                            <span>м. Київ, вул. Технологічна, 123</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>🕒 Графік роботи:</strong>
+                            <span>Пн-Пт: 9:00-18:00, Сб: 10:00-16:00</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact-form-section">
+                    <h2>Написати нам</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Ваше ім'я *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Ваш email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Ваш телефон</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Повідомлення *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Ваше повідомлення..."></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Надіслати</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TechZone. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

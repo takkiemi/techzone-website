@@ -1,0 +1,25 @@
+/* Main styles - головний файл */
+@import url('base.css');
+@import url('layout.css');
+@import url('components.css');
+@import url('responsive.css');
+
+/* Додаткові глобальні стилі */
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+}
+
+.category {
+    margin-bottom: 4rem;
+}
+
+.category h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #34495e;
+    border-left: 4px solid #3498db;
+    padding-left: 1rem;
+}
